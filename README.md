@@ -8,9 +8,11 @@ Grupo: Meninas Superpoderosas
 
 ## Descrição
 
+Campo minado com as regras usuais.
+
 ### Controles
-* **SW[0]**: Revela a posição quando é flipado (tanto para cima quanto para baixo);
-* **SW[1]**: Idem mas para posicionar uma bandeira;
+* **SW[0]**: Revela a posição selecionada quando é flipado (tanto para cima quanto para baixo);
+* **SW[1]**: Posiciona uma bandeira na posição selecionada quando é flipado;
 * **SW[8]**: Modo debug (revela todo o campo);
 * **SW[9]**: Reset;
 * **KEY[3..0]**: Movimentação, em ordem: cima, baixo, esquerda, direita.
